@@ -46,6 +46,8 @@ ol {
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
+}
+.header .logo__title {
   color: rgb(25, 24, 37);
   font-family: Inter;
   font-size: 24px;

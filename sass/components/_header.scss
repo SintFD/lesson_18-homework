@@ -8,11 +8,14 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    color: rgb(25, 24, 37);
-    font-family: $primaryStyle;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 40px;
+
+    &__title {
+      color: rgb(25, 24, 37);
+      font-family: $primaryStyle;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 40px;
+    }
   }
 
   @media (min-width: 1024px) {
